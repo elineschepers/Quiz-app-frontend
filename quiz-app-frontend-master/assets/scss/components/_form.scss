@@ -1,0 +1,9 @@
+.input-field {
+  input {
+    @apply shadow-sm focus:bg-regal-blue-100 focus:bg-regal-blue-200 block w-full sm:text-sm border-gray-300 rounded-md;
+
+    &.gray {
+      @apply bg-gray-200;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+/**
+ * Default parameters
+ **/
+html, body, #__nuxt, #__layout, #page-wrapper {
+  height: 100%;
+  @apply bg-gray-100 overflow-x-hidden;
+}
+
+#page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  overflow: auto;
+
+  &.content {
+    @apply max-w-7xl mx-auto py-6 sm:px-6 lg:px-8;
+  }
+}
+
+/**
+  * Components
+  **/
+@import "components/form";
+@import "components/button";
